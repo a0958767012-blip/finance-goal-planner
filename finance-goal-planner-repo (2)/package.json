@@ -1,0 +1,11 @@
+{
+  "name": "finance-goal-planner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "目標理財試算器：用 PV、FV、PMT 規劃財務目標",
+  "scripts": {
+    "dev": "npx wrangler pages dev .",
+    "deploy": "npx wrangler pages deploy . --project-name=finance-goal-planner"
+  },
+  "license": "MIT"
+}
